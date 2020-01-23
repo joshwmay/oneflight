@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang = "en-US">
+<head>
+  <meta charset = "utf-8">
+  <title> Josh May Website/Application Examples</title>
+  <meta name = "Joshua May" content="width=device-width, initial-scale=1">
+  <link rel  = "stylesheet" href ="css/styles.css">
+</head>
+<body>
+  <header>
+  <form>
+    <button><a href=""></a></button>
+    <button><a href=""></a></button>
+    <button><a href=""></a></button>
+  </form>
+  </header>
+  <div id="wrapper">
+    <div id="dlpy">
+      <h1>Python Download Links</h1>
+      <div id="dlpylinks">
+        <a href="https://www.python.org/downloads/windows/">
+          <button type="button" class="collapse"
+            title="">Download Python for Windows
+          </button>
+        </a>
+        <a href="https://www.python.org/downloads/mac-osx/">
+          <button type="button" class="collapse"
+            title="">Download Python for Mac OS X
+          </button>
+        </a>
+      </div>
+    </div>
+    <div id="vsc">
+      <h1>VSC Download Links</h1>
+      <a href="https://aka.ms/win32-x64-user-stable">
+        <button type="button" class="collapse"
+          title="">Download VSC for Windows
+        </button>
+      </a>
+      <a href="https://go.microsoft.com/fwlink/?LinkID=620882">
+        <button type="button" class="collapse"
+          title="">Download VSC for Mac OS X
+        </button>
+      </a>
+    </div>
+    <div id="vscext">
+      <h1>VSC Extensions</h1>
+      <div id="extinst" alt="Screen capture finding needed extensions"><iframe src="mp4/extinst.mp4" height="600" width="800"></iframe></div>
+      <h2>Screen capture finding needed extensions</h2>
+      <a href="https://code.visualstudio.com/docs/languages/python">
+        <button type="button" class="collapse"
+          title="Python extension installation">Python extension installation
+        </button>
+      </a>
+      
+      <a href="">
+        <button type="button" class="collapse"
+          title="">Download
+        </button>
+      </a>
+    </div>
+    <div id="py4e">
+      <h1>Python for Everybody Links</h1>
+      <div id="py4elinks">
+        <a href="https://www.py4e.com/lessons/install">
+          <button type="button" class="collapse"
+            title="Installing python">Installing Python
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/intro">
+          <button type="button" class="collapse"
+            title="Why Program?">Why Program?
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/memory">
+          <button type="button" class="collapse"
+            title="Variables, expressions, and statements">
+            Variables, expressions, and statements
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/logic">
+          <button type="button" class="collapse"
+            title="Conditional execution">Conditional execution
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/functions">
+          <button type="button" class="collapse"
+            title="Functions">Functions
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/loops">
+          <button type="button" class="collapse"
+            title="Loops and iterations">Loops and iterations
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/strings">
+          <button type="button" class="collapse"
+            title="Strings">Strings
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/files">
+          <button type="button" class="collapse"
+            title="Files">Files
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/lists">
+          <button type="button" class="collapse"
+            title="Lists">Lists
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/dictionary">
+          <button type="button" class="collapse"
+            title="Dictionaries">Dictionaries
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/tuples">
+          <button type="button" class="collapse"
+            title="Tuples">Tuples
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/regex">
+          <button type="button" class="collapse"
+            title="Regular expressions">Regular expressions
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/network">
+          <button type="button" class="collapse"
+            title="Network programming">Network programming
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/servces">
+          <button type="button" class="collapse"
+            title="Using Web Services">Using Web Services
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/Objects">
+          <button type="button" class="collapse"
+            title="Object-Oriented Programming">Object-Oriented Programming
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/database">
+          <button type="button" class="collapse"
+            title="Databases">Databases
+          </button>
+        </a>
+        <a href="https://www.py4e.com/lessons/dataviz">
+          <button type="button" class="collapse"
+            title="Data visualization">Data visualization
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <form>
+      <button><a href=""></a></button>
+      <button><a href=""></a></button>
+      <button><a href=""></a></button>
+    </form>
+  </footer>
+</body>
+<script>
+var coll = document.getElementsByClassName("collapse");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</html>

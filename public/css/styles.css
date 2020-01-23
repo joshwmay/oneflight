@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#dlpy {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+#vsc {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+#py4e {
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 5px;
+
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+}
+
+#wrapper{
+  padding: 15px;
+  background-color: purple;
+}
+
+#extinst{
+  height: 100%;
+  width: 100%;
+}
