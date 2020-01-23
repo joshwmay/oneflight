@@ -8,6 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
   margin: 5px;
 }
 
@@ -16,7 +17,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
   margin: 5px;
+}
+
+#vscext {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 5px;
+}
+
+#extinst {
+  display: flex;
+  justify-content: center;
+
 }
 
 #py4e {
@@ -28,7 +45,7 @@ body {
   justify-content: space-evenly;
   margin: 5px;
 
-}
+} 
 
 button {
   width: 100px;
