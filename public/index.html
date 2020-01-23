@@ -8,11 +8,6 @@
 </head>
 <body>
   <header>
-  <form>
-    <button><a href=""></a></button>
-    <button><a href=""></a></button>
-    <button><a href=""></a></button>
-  </form>
   </header>
   <div id="wrapper">
     <div id="dlpy">
@@ -32,16 +27,18 @@
     </div>
     <div id="vsc">
       <h1>VSC Download Links</h1>
-      <a href="https://aka.ms/win32-x64-user-stable">
-        <button type="button" class="collapse"
-          title="">Download VSC for Windows
-        </button>
-      </a>
-      <a href="https://go.microsoft.com/fwlink/?LinkID=620882">
-        <button type="button" class="collapse"
-          title="">Download VSC for Mac OS X
-        </button>
-      </a>
+      <div id="vsclinks">
+        <a href="https://aka.ms/win32-x64-user-stable">
+          <button type="button" class="collapse"
+            title="">Download VSC for Windows
+          </button>
+        </a>
+        <a href="https://go.microsoft.com/fwlink/?LinkID=620882">
+          <button type="button" class="collapse"
+            title="">Download VSC for Mac OS X
+          </button>
+        </a>
+      </div>
     </div>
     <div id="vscext">
       <h1>VSC Extensions</h1>
@@ -152,27 +149,8 @@
     </div>
   </div>
   <footer>
-    <form>
-      <button><a href=""></a></button>
-      <button><a href=""></a></button>
-      <button><a href=""></a></button>
-    </form>
   </footer>
 </body>
 <script>
-var coll = document.getElementsByClassName("collapse");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
 </script>
 </html>
