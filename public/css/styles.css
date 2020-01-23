@@ -30,11 +30,6 @@ body {
   margin: 5px;
 }
 
-#extinst {
-  display: flex;
-  justify-content: center;
-
-}
 
 #py4e {
   background-color: gray;
@@ -61,4 +56,15 @@ button {
 #extinst{
   height: 100%;
   width: 100%;
+}
+
+#cheat {
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, #oops, #extinst {
+  display: flex;
+  justify-content: center;
 }
