@@ -120,6 +120,10 @@ a {
   margin-bottom: 40px;
 }
 
+.w3-container {
+  background-color: black;
+}
+
 @media (max-width: 992px) {
   .w3-sidebar.w3-collapse {
     display: none;
@@ -134,8 +138,8 @@ a {
 }
 
 .main {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .w3-bar-block a:hover {
