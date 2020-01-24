@@ -5,11 +5,44 @@
   <title> Josh May Website/Application Examples</title>
   <meta name = "Joshua May" content="width=device-width, initial-scale=1">
   <link rel  = "stylesheet" href ="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel = "stylesheet" href  = "css/styles.css">
+  <script src="js/script.js"></script>
+
 </head>
 <body>
-  <header>
+
+  <nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+
+    <div class="w3-container">
+      <h3 class="w3-padding-26"><b>Python<br> Hub</b></h3>
+    </div>
+
+    <div class="w3-bar-block">
+      <div id="dlpy_side"><a href="#dlpy" onclick="closeNav()" class="w3-bar-item w3-button w3-hover-white">Download Python</a></div>
+      <div id="vsclinks_side"><a href="#vsclinks" onclick="closeNav()" class="w3-bar-item w3-button w3-hover-white">Download VSC</a></div>
+      <div id="extinst_side"><a href="#extinst" onclick="closeNav()" class="w3-bar-item w3-button w3-hover-white">VSC Extensions</a></div>
+      <div id="py4elinks_side"><a href="#py4elinks" onclick="closeNav()" class="w3-bar-item w3-button w3-hover-white">PY4E Links</a></div>
+      <div id="cheat_side"><a href="#cheat" onclick="closeNav()" class="w3-bar-item w3-button w3-hover-white">OOP Sheet</a></div>
+    </div>
+
+  </nav>
+
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-hide-large w3-xlarge w3-padding" id="topBar">
+    <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="openNav()">☰</a>
+    <span>Python Hub</span>
   </header>
-  <div id="wrapper">
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="closeNav()" style="cursor:pointer" title="Close Side Menu" id="myOverlay"></div>
+
+  <!--START OF PAGE CONTENT-->
+  <div class="main">
+
     <div id="dlpy">
       <h1>Python Download Links</h1>
       <div id="dlpylinks">
@@ -147,8 +180,6 @@
       <h2>OOP resources</h2>
     </div>
   </div>
-  <footer>
-  </footer>
 </body>
 <script>
 </script>
