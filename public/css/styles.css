@@ -187,3 +187,8 @@ footer {
 .w3-sidebar{
   margin-right: 125px;
 }
+
+#pd, #pd_side {
+  color: black;
+  background-color: white;
+}
