@@ -12,6 +12,10 @@ body {
   margin: 5px;
 }
 
+#dlpy_side {
+  background-color: green;
+}
+
 #vsc {
   background-color: red;
   display: flex;
@@ -20,7 +24,9 @@ body {
   flex-direction: column;
   margin: 5px;
 }
-
+#vsclinks_side {
+  background-color: red;
+}
 #vscext {
   background-color: blue;
   display: flex;
@@ -30,6 +36,13 @@ body {
   margin: 5px;
 }
 
+#extinst_side{
+  background-color: blue;
+}
+
+#py4elinks_side{
+  background-color:  gray;
+}
 
 #py4e {
   background-color: gray;
@@ -49,7 +62,7 @@ button {
 }
 
 #wrapper{
-  padding: 15px;
+  padding: 5px;
   background-color: purple;
 }
 
@@ -64,7 +77,54 @@ button {
   flex-direction: column;
 }
 
+#cheat_side{
+  background-color: teal;
+}
+
 h1, h2, #oops, #extinst {
   display: flex;
   justify-content: center;
+}
+
+#mySidebar {
+  z-index: 3;
+  width: 250px;
+  font-weight: bold;
+  color: white;
+  background-color: darkorange;
+}
+
+a {
+  color: white;
+}
+
+
+#topBar {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: darkorange;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+  .w3-sidebar.w3-collapse {
+    display: none;
+  }
+  .main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .w3-auto {
+    max-width: 90%;
+  }
+}
+
+.main {
+  margin-left: 320px;
+  margin-right: 40px;
+}
+
+.w3-bar-block a:hover {
+  background-color: #deac2f;
 }
