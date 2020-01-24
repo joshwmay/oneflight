@@ -142,7 +142,7 @@ a {
   background-color: #deac2f;
 }
 
-iframe, img {
+iframe{
   max-width: 100%;
 }
 
