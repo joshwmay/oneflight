@@ -56,13 +56,15 @@ body {
 } 
 
 button {
-  width: 100px;
+  display: flex;
+  justify-content: center;
+  width: 125px;
   height: 100px;
-  margin: 25px;
+  margin: 5px;
 }
 
 #wrapper{
-  padding: 5px;
+  padding: .25px;
   background-color: purple;
 }
 
@@ -88,7 +90,7 @@ h1, h2, #oops, #extinst {
 
 #mySidebar {
   z-index: 3;
-  width: 250px;
+  width: 0px;
   font-weight: bold;
   color: white;
   background-color: darkorange;
@@ -121,10 +123,14 @@ a {
 }
 
 .main {
-  margin-left: 320px;
+  margin-left: 35px;
   margin-right: 40px;
 }
 
 .w3-bar-block a:hover {
   background-color: #deac2f;
+}
+
+iframe {
+  max-width: 100%;
 }
