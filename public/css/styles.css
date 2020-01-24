@@ -3,6 +3,9 @@ body {
   color: white;
 }
 
+.w3-bar-block {
+  margin-right: 20px;
+}
 #dlpy {
   background-color: green;
   display: flex;
@@ -52,8 +55,16 @@ body {
   align-content: center;
   justify-content: space-evenly;
   margin: 5px;
-
+  flex-direction: column;
 } 
+
+#py4elinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
 
 button {
   display: flex;
@@ -83,7 +94,7 @@ button {
   background-color: teal;
 }
 
-h1, h2, #oops, #extinst {
+h1, h2, #oops, #extinst, a {
   display: flex;
   justify-content: center;
 }
@@ -123,14 +134,50 @@ a {
 }
 
 .main {
-  margin-left: 35px;
-  margin-right: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .w3-bar-block a:hover {
   background-color: #deac2f;
 }
 
-iframe {
+iframe, img {
   max-width: 100%;
+}
+
+#shots img {
+  margin: 5px;
+}
+
+#shell, #shell_side {
+  background-color: rgba(146, 144, 15, 0.692);
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card{
+  display: inline-block;
+}
+
+.card a img {
+  width: 90%;
+  height: 90%;
+}
+
+footer {
+  height: 50px;
+}
+
+#dlpylinks, #vsclinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.w3-sidebar{
+  margin-right: 125px;
 }
