@@ -90,7 +90,7 @@ h1, h2, #oops, #extinst {
 
 #mySidebar {
   z-index: 3;
-  width: 0px;
+  width: 250px;
   font-weight: bold;
   color: white;
   background-color: darkorange;
