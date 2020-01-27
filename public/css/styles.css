@@ -139,7 +139,7 @@ a {
   }
 }
 
-#my sidebar .main {
+#mysidebar .main {
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -150,6 +150,8 @@ a {
 
 iframe{
   max-width: 100%;
+  width: 80%;
+  margin-left: 60px;
 }
 
 #shots img {
@@ -191,4 +193,13 @@ footer {
 #pd, #pd_side {
   color: black;
   background-color: white;
+}
+
+#pd:hover, #pd_side:hover {
+  color: white;
+  background-color: black;
+}
+
+#shell_side:hover a, #shell_side:hover {
+  background-color: lightgreen;
 }
