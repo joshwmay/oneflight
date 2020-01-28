@@ -64,7 +64,11 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 25px;
+  justify-content: center;
+  margin-left: 125px;
+  margin-right: 125px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
